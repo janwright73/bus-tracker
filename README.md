@@ -11,10 +11,10 @@ This project demonstrates the following concepts:
 
 I had fun adding a menu for the user to select a styling option and expand to full screen. The class assignment was refactored to break up the single source file into .html, .js, and .css files for easier maintance.
 
-###How to Run
+### How to Run
 Anyone can run this file by downloading the repository and loading the index.html file to a browser.
 
-###Future Improvements
+### Future Improvements
 Add real time data to update the current location of the bus and map that for the user.
 
 #### MIT License
