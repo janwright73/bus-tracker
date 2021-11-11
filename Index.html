@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Add a default marker</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+<link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+
+<div id="map"></div>
+<div class="map-overlay top">
+  <button syle="font-size: 2em;" onclick="move()">
+    Show stops between MIT and Harvard
+  </button>
+</div>
+
+<div id="menu">
+  <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" checked="checked">
+  <!-- See a list of Mapbox-hosted public styles at -->
+  <!-- https://docs.mapbox.com/api/maps/styles/#mapbox-styles -->
+  <label for="satellite-v9">satellite</label>
+  <input id="light-v10" type="radio" name="rtoggle" value="light">
+  <label for="light-v10">light</label>
+  <input id="dark-v10" type="radio" name="rtoggle" value="dark">
+  <label for="dark-v10">dark</label>
+  <input id="streets-v11" type="radio" name="rtoggle" value="streets">
+  <label for="streets-v11">streets</label>
+  <input id="outdoors-v11" type="radio" name="rtoggle" value="outdoors">
+  <label for="outdoors-v11">outdoors</label>
+  </div>
+
+  <script src="mapanimation.js"></script>
+</body>
+</html>
+
+
